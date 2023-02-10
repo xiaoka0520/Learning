@@ -51,11 +51,16 @@ export default defineConfig({
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present kaka'
-          },
-          editLink: {
+        },
+        editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
-          },
-          lastUpdatedText: 'Updated Date'
+        },
+        lastUpdatedText: 'Updated Date',
+        algolia: {
+            appId: '...',
+            apiKey: '...',
+            indexName: '...'
+          }
     }
 })
