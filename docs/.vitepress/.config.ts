@@ -5,7 +5,7 @@ export default defineConfig({
     title: "vitepress",
     description: "vite & vue", // 描述
     appearance: true,
-    base: '/base/',
+    base: '/Learning/',
     head: [
         ['link', { rel: 'preconnect', href: 'https://www.baidu.com', crossorigin: '' }]
     ],
